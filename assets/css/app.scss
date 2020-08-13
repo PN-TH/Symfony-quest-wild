@@ -1,3 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+ 
+$custom-blue: rgb(38, 35, 218);
+$custom-red: rgb(253, 108, 108);
+$custom-yellow : rgb(228, 248, 50);
+$custom-green: rgb(54, 248, 112);
+$custom-violet: rgb(189, 43, 226);
+$custom-orange: rgb(253, 176, 32);
+ 
 body {
-    background-color: red;
+    background-color: rgb(233, 233, 233);
+}
+ 
+nav {
+    background-color: $custom-red !important;
+ 
+    a {
+        color: white !important;
+    }
 }
