@@ -8,3 +8,5 @@ app_index:
 wild_show_index:
     path: /wild/
     controller: App\Controller\WildController::index
+
+
